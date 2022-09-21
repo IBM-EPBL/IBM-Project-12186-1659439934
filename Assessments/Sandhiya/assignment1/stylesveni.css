@@ -1,0 +1,238 @@
+body{
+    height: 100%;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.navbar h1{
+    margin-left: 10px;
+    font-weight: 700;
+    letter-spacing: .2mm;
+    color: white;
+}
+.navbar a{
+    transition: .5s ease;
+}
+.title a{
+    background-color: rgb(0, 159, 112);
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .8mm;
+}
+.title a:hover{
+    background-color: rgb(0, 159, 112);
+}
+.title{
+    text-align: center;
+    line-height:1cm;
+    margin: auto;
+    height: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("bg.png");
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 350px;
+
+}
+.title .container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+li{
+    background-color: transparent;
+    border: 3px solid white;
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .8mm;
+    font-weight: 600;
+    transition: .5s ease;
+}
+li:hover{
+    background: rgb(0, 159, 112);
+    border-color:rgb(0, 159, 112);
+}
+.enquiry label{
+    float: left;
+
+}
+.enquiry{
+    width: 50%;
+    margin:auto
+}
+.enquiry .btn{
+    background-color: rgb(0, 159, 112);
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .8mm;
+    margin-top: 10px;
+    transition: .5s ease;  
+}
+
+/*-------CHESSBOARD--------*/
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    background-color: black;
+    padding: 20px;
+}
+
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #444;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.board span{
+    padding-right:28px;
+    padding-left: 40px;
+    text-align: center;
+}
+.board{
+    margin: auto;
+    margin-left: 29%;
+}
+
+/*--------VIBGYOR-------*/
+.vibgyor{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.vibgyor_1{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("bg.png");
+  
+}
+.vibgyor_1 h1{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 1mm;
+    text-shadow:3px 4px rgba(0, 125, 106, 0.722);
+}
+.vibgyor_1 table{
+    width: 80%;
+    margin: auto;
+}
+.vibgyor_1 label{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: .8mm;
+    padding-top: 15px;
+}
+
+.violet{
+
+    float: left;
+    width: 14.2857%;
+    height: 100%;
+    background-color: violet;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+
+}
+.indigo{
+    float: left;
+    width: 14.2857%;
+    height: 100%;
+    background-color: indigo;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+
+}
+.blue{
+    float: left;
+    width: 14.2857%;
+    height: 100%;
+    background-color: blue;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+
+}
+.green{
+    float: left;
+    width: 14.2857%;
+    height: 100%;
+    background-color: green;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+
+}
+.yellow{
+    float: left;
+    width: 14.2857%;
+    height: 100%;
+    background-color: yellow;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+
+}
+.orange{
+    float: left;
+    width: 14.2857%;
+    height: 100%;
+    background-color: orange;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.red{
+    float: left;
+    width: 14.2857%;
+    height: 100%;
+    background-color: red;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+
+}
+
+
+
+
+
